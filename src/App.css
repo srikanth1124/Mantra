@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#div1 {width: 400px;height: 300px;padding:10px;border:1px solid #635e5e;}
+#div2 {width:400px;height:500px;padding:10px;border:1px solid #5c5656;}
+#div3 {width:4000px;height:500px;padding:10px;border:1px solid #aaaaaa;}
+.boxstyle {
+  height: 30;
+  margin: 12;
+  border-width: 1;
+  padding: 10;
+  border-radius: 5
+    
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  height: 300px;
+  width: 300px;
+  transition: 0.3s;
+  background-color:'lightblue';
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 2rem;
+  background: lightblue;
+  margin: 20px;
+  /*box-shadow: 0 0 40px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2);
+  */
+  border-radius: 3px;
+}
+.card2{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 300px;
+    width: 300px;
+    transition: 0.3s;
+    background-color:'lightblue';
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 2rem;
+    background: lightblue;
+    margin: 20px;
+    /*box-shadow: 0 0 40px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2);
+    */
+    border-radius: 3px;
+}
+/*.table {
+  width: 400px;
+  height: 500px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 2px;
+}*/
+.table-card{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
